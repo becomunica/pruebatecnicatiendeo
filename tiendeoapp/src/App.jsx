@@ -16,7 +16,7 @@ class App extends React.Component {
               item3="Shedule"
               item4="Reports" />
               <NavBar brand="TaskSky" userLogin="Jhon Doe" />
-              <div><LayoutCards /></div>
+              <LayoutCards />
           </div>   
   }
 }

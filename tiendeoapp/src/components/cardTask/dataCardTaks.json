@@ -1,0 +1,39 @@
+[
+    {
+        "id":1,
+        "name": "Planing" ,
+        "state": "Inmediate",
+        "desc": "Name of task: Company website redesign, all resources are into redesign_companies folder",
+        "message": "3",
+        "Attachment": "2",
+        "url" :"#!"
+    },
+    {
+        "id":2,
+        "name": "Ready",
+        "state": "Priority",
+        "desc": "Name of task: Company website redesign, all resources are into redesign_companies folder",
+        "message": "3",
+        "Attachment": "2",
+        "url" :"#!"
+    },
+    {
+        "id":3,
+        "name": "Doing",
+        "state": "Priority",
+        "desc": "Name of task: Company website redesign, all resources are into redesign_companies folder",
+        "message": "3",
+        "Attachment": "2",
+        "url" :"#!"
+    },
+    {
+        "id":4,
+        "name": "Revision",
+        "state": "Priority",
+        "desc": "Name of task: Company website redesign, all resources are into redesign_companies folder",
+        "message": "3",
+        "Attachment": "2",
+        "url" :"#!"
+    }
+
+]

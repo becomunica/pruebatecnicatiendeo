@@ -1,7 +1,6 @@
 import React from 'react'
 import '../layoutCards/layoutCards.scss'
-import BoardCardTask from '../boardCardTask/boardCardTask'
-import HeaderTask from '../headerTask/headerTask'
+import CardTask from '../cardTask/cardTask'
 
 const LayoutCards = props => {
     return (
@@ -23,51 +22,9 @@ const LayoutCards = props => {
                         </div>
                     </div>
 
-
                     <div className="row">
-                        <div className="col-12 col-sm-12 col-md-3 col-lg-3 mt-1">
-                            <HeaderTask titleHeaderTask="Name Board" countCards="7" />
-                            <BoardCardTask
-                                className=""
-                                countMessage="3"
-                                countAttachament="2"
-                                AddTask="Add Task"
-                                titleCard="Name Board"
-                                labelCard="Priority"
-                                textTask="Name of task: Company website redesign, all resources are into redesign_companies folder" />
-                        </div>
-                        <div className="col-12 col-sm-12 col-md-3 col-lg-3 mt-1">
-                            <HeaderTask titleHeaderTask="Name Board" countCards="7" />
-                            <BoardCardTask
-                                className=""
-                                countMessage="3"
-                                countAttachament="2"
-                                AddTask="Add Task"
-                                titleCard="Name Board"
-                                labelCard="Priority"
-                                textTask="Name of task: Company website redesign, all resources are into redesign_companies folder" />
-                        </div>
-                        <div className="col-12 col-sm-12 col-md-3 col-lg-3 mt-1">
-                            <HeaderTask titleHeaderTask="Name Board" countCards="7" />
-                            <BoardCardTask
-                                className=""
-                                countMessage="3"
-                                countAttachament="2"
-                                AddTask="Add Task"
-                                titleCard="Name Board"
-                                labelCard="Priority"
-                                textTask="Name of task: Company website redesign, all resources are into redesign_companies folder" />
-                        </div>
-                        <div className="col-12 col-sm-12 col-md-3 col-lg-3 mt-1">
-                            <HeaderTask titleHeaderTask="Name Board" countCards="7" />
-                            <BoardCardTask
-                                className=""
-                                countMessage="3"
-                                countAttachament="2"
-                                AddTask="Add Task"
-                                titleCard="Name Board"
-                                labelCard="Priority"
-                                textTask="Name of task: Company website redesign, all resources are into redesign_companies folder" />
+                        <div className="col-12 col-sm-12 col-md-12 col-lg-12">
+                        <CardTask />
                         </div>
                     </div>
                 </div>
