@@ -1,0 +1,27 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+$theme-colors: (
+  "primary-light": #768fff,
+  "primary": #2965ff,
+  "system-danger": #ffeb3b,
+  "gray-dark": #102027,
+  "gray-reset": #37474f,
+  "primary-dark": #0039cb,
+  "gray-light": #62727b,
+  "system-sucess": #00c853,
+  "sfc-progress": #ff8a00,
+  "white": #ffffff,
+  "system-danger-2": #ff3d00
+);
+
+@function color($key: "blue") {
+    @return map-get($colors, $key);
+  }
+  
+  @function theme-color($key: "primary") {
+    @return map-get($theme-colors, $key);
+  }
+  
+  @function gray($key: "100") {
+    @return map-get($grays, $key);
+  }
