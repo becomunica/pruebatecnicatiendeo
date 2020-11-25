@@ -1,0 +1,122 @@
+:root {
+    --primary-light: #768fff;
+    --primary: #2965ff;
+    --primary-dark: #0039cb;
+    --gray-reset: #37474f;
+    --gray-light: #62727b;
+    --gray-dark: #102027;
+    --system-danger: #ffeb3b;
+    --system-danger-2: #ff3d00;
+    --system-sucess: #00c853;
+    --white: #ffffff;
+    --sfc-progress: #ff8a00;
+
+    @mixin heading-3 {
+        font-family: Roboto;
+        font-size: 28px;
+        line-height: 1.29;
+      }
+      
+      @mixin heading-2 {
+        font-family: Roboto;
+        font-size: 24px;
+        line-height: 1.33;
+      }
+      
+      @mixin heading-1 {
+        font-family: Roboto;
+        font-size: 20px;
+        line-height: 1.4;
+      }
+      
+      @mixin body-normal-2 {
+        font-family: Roboto;
+        font-size: 18px;
+        line-height: 1.33;
+      }
+      
+      @mixin body-normal-1 {
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 1.38;
+      }
+      
+      @mixin helper-1 {
+        font-family: Roboto;
+        font-size: 14px;
+        line-height: 1.43;
+      }
+      
+      @mixin label-1 {
+        font-family: Roboto;
+        font-size: 12px;
+        line-height: 1.33;
+      }
+      
+      @mixin label-2 {
+        font-family: Roboto;
+        font-size: 10px;
+        line-height: 1.2;
+      }
+      
+      @mixin label-3 {
+        font-family: Roboto;
+        font-size: 8px;
+        line-height: 1.5;
+      }
+}
+
+
+.heading-3 {
+  font-family: Roboto;
+  font-size: 28px;
+  line-height: 1.29;
+}
+
+.heading-2 {
+  font-family: Roboto;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+.heading-1 {
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.body-normal-2 {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.body-normal-1 {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.38;
+}
+
+.helper-1 {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.label-1 {
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 1.33;
+}
+
+.label-2 {
+  font-family: Roboto;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.label-3 {
+  font-family: Roboto;
+  font-size: 8px;
+  line-height: 1.5;
+}
