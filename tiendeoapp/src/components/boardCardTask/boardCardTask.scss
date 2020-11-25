@@ -1,0 +1,13 @@
+.boardCardTask {
+    box-shadow: 0px 0px 30px #a9b7c794;
+    border-radius: .5em;
+
+    .bodyBoardCardTask {
+        background-color: #62727b2b;
+    }
+    .labelTask {
+        background-color: var(--system-danger-2);
+        color: var(--white);
+        border-radius: .3em;
+    }
+}

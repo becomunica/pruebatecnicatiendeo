@@ -1,0 +1,17 @@
+.navBar {
+    background-color: var(--primary);
+    h4 {
+        color: white;
+        font-weight: 700;
+    }
+    .notification-box {
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+    }
+    span {
+        color: var(--white);
+    }
+    .paddNav {
+        padding: 1.25em 0em;
+    } 
+}

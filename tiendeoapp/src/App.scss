@@ -1,6 +1,11 @@
 .SideNav {
     background: var(--primary-dark);
 }
-.icon-color path {
+.icon-custom {
+    path {
     fill: var(--white);
+    }
+    svg {
+        margin-left: 1em;
+    }
 }
